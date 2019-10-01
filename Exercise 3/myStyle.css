@@ -1,25 +1,66 @@
-p {
-    background-color: red;
+h1 {
+    color: whitesmoke;
+    background-image: url(test.jpg);
+    background-size: 100%;
+}
+
+h3 {
     color: white;
-    font-family: arial;
-    font-size: 22pt;
 }
+
+p {
+    background-color: aqua; 
+    opacity: 0.5;
+    color: black;
+    font-family: Times New Roman;
+    font-size: 12pt;
+}
+
+    p.cooking {
+        color: red;
+        background-color: black;
+        opacity: 0.5;
+        width: 50%;
+    }
+
+    p.learning {
+        color: darkorange;
+        background-color: black;
+        opacity: 0.5;
+        width: 50%;
+    }
+
+    p.other {
+        color: green;
+        background-color: black;
+        opacity: 0.5;
+        width: 50%;
+    }
+
 body {
-    background-color: red;
+    background-image: url(danger-dark-evening-1114688.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
-/*
-Paragraph Background color
-Body background color
-Background image
-Text color
-text font
-hover
-classes
+li.cooking {
+    color: darkred;
+}
 
-CSS Requirements:
+li.learning {
+    color: darkorange;
+}
 
-Use all the attributes listed in the CSS section at least once.
-The page should not induce seizures or headaches - in other words, mind the color pallet you choose
-All text should be easy to read
-    */
+li.other {
+    color: green;
+}
+
+a {
+    color: lightblue;
+}
+
+    a:hover {
+        color: red;
+        font-family: Arial;
+    }
